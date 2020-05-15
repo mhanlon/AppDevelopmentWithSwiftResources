@@ -24,4 +24,20 @@ The repo contains all the labs with Swift Playground exercises from the App Deve
 
 Read through the lessons and follow along wherever possible. At the end of each lesson there is a lab. Complete the associated Swift Playground.
 
-When you've completed all the labs...
+When you've completed all the labs, `git add`, `git commit`, and `git push origin master` your code back up to Github. On the page for your fork of the repo (https://github.com/your username>/AppDevelopmentWithSwiftResources) you'll push the button to create a new pull request:
+![](images/new-pull-request-button.png)
+
+
+
+
+Make sure the base repository is `mhanlon/AppDevelopmentWithSwiftResources` and the base is `master`, like so:
+
+![](images/pull-request-base.png)
+
+
+Create the pull request, and I'll be able to review your changes to the playgrounds and we can discuss your code in the final catch-up.
+
+### Other links
+You may also want to take a look at the [AppDevResources repository](https://github.com/mhanlon/AppDevResources). This has some useful pointers that others taking the App Development with Swift class have found useful.
+
+Happy coding!
