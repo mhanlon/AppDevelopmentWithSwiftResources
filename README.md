@@ -24,6 +24,9 @@ The repo contains all the labs with Swift Playground exercises from the App Deve
 
 Read through the lessons and follow along wherever possible. At the end of each lesson there is a lab. Complete the associated Swift Playground.
 
+![](images/the-labs.png)
+
+
 When you've completed all the labs, `git add`, `git commit`, and `git push origin master` your code back up to Github. On the page for your fork of the repo (https://github.com/your username>/AppDevelopmentWithSwiftResources) you'll push the button to create a new pull request:
 
 ![](images/new-pull-request-button.png)
