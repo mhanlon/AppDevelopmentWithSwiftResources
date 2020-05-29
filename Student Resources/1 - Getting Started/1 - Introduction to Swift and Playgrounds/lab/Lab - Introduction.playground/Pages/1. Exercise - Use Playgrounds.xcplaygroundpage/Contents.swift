@@ -10,11 +10,15 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("way back home  - Shaun")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
+print("Remember when I told you")
+print("No matter where I go")
+print("I'll never leave your side")
+print("You will never be alone")
 
 
 
