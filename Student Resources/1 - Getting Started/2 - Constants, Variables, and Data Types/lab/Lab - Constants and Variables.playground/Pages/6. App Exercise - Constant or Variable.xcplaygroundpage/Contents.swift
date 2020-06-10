@@ -13,7 +13,16 @@
  */
 
 
-
+let name = "Omnia"
+print("A user's profile name should not change")
+var age = 26
+print("The user age will automatically increment by years")
+var steps = 1286
+print("The steps count changes along the day")
+var goal = 10000
+print("The user might want to change his goal according to his progress")
+var HRate = 94
+print("The user avg heart rate might change")
 
 
 /*:
