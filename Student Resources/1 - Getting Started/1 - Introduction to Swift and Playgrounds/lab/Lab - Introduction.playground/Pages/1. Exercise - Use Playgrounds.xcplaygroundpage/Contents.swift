@@ -1,30 +1,20 @@
 /*:
- ## Exercise - Use Playgrounds
-
- The code below prints a few short statements about what you have learned in this lesson. Open the console area and view the code's output.
+ ## Exercise - Constants
+ Declare a constant called `friends` to represent the number of friends you have on social media. Give it a value between 50 and 1000. Print out the value by referencing your constant.
  */
-print("I have learned the following:")
-print("What features make Swift a modern and safe language")
-print("How to use the Swift REPL in Terminal")
-print("How to use playgrounds to make writing Swift fun and simple")
-/*:
- Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
- */
+ let friends = 700
+ print(friends)
 
 
 /*:
- Use multiple `print` functions to write out some of the lyrics to the song.
+ Now assume you go through and remove friends that aren't active on social media. Attempt to update your `friends` constant to a lower number than it currently is. Observe what happens and then move to the next step.
  */
-
-
+//friends = 500
 
 /*:
-
- _Copyright © 2018 Apple Inc._
-
- _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
-
- _The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
-
- _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+ Does the above code compile? Why not? Print your explanation to the console using the `print` function. Go back and delete your line of code that updates the `friends` constant to a lower number so that the playground will compile properly.
  */
+ print("No, it won't compile because friends is a 'let' constant .. you cant changet that:)")
+
+
+//: page 1 of 10  |  [Next: App Exercise - Step Goal](@next)
