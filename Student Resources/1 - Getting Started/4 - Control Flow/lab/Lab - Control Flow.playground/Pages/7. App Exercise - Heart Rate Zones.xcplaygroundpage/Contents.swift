@@ -16,6 +16,21 @@
  If `currentHR` is above the listed zones, print some kind of warning asking the user to slow down.
  */
 let currentHR = 128
+switch currentHR {
+    case _ where currentHR >= 100 && currentHR <= 120:
+    print("You are in the Very Light zone. Activity in this zone helps with recovery.")
+    case _ where currentHR >= 121 && currentHR <= 140:
+    print("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning")
+    case _ where currentHR >= 141 && currentHR <= 160:
+    print("You are in the Moderate zone. Activity in this zone helps improve aerobic fitness.")
+    case _ where currentHR >= 161 && currentHR <= 180:
+    print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions..")
+    case _ where currentHR >= 181 && currentHR <= 200:
+    print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
+    default:
+    print("You are in the Exterme Lowest zone, stand up")
+}
+
 
 
 //: [Previous](@previous)  |  page 7 of 9  |  [Next: Exercise - Ternary Operator](@next)

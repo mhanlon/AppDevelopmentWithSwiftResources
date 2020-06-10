@@ -12,7 +12,16 @@
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
 
-
+let name = "Mira"
+print("I set Name to constant because it won't change")
+var age = 25
+print("I set Age to variable because it will change yearly")
+var numberOfSetpsToday = 15000
+print("I set Number of steps taken today to variable because it will change daily")
+var numberOfGoalSteps = 20000
+print("I set Goal number of steps to variable because it will change daily")
+var averageHeartRate = 75
+print("I set Average heart rate to variable because it will change daily")
 
 
 
