@@ -11,7 +11,7 @@ var hasMetStepGoal = false
  When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
  */
 
-let goalSetseps = "20 thousands goal steps"
-var currentSetpCount = "15 thousands current step count"
+let goalSetseps = 20_000
+var currentSetpCount = 15_000
 
 //: [Previous](@previous)  |  page 8 of 10  |  [Next: Exercise - Type Inference and Required Values](@next)
