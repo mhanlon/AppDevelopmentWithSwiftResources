@@ -1,5 +1,4 @@
-  
-/*:
+ /*:
  ## App Exercise - Target Heart Rate
  
  >These exercises reinforce Swift concepts in the context of a fitness tracking app.
