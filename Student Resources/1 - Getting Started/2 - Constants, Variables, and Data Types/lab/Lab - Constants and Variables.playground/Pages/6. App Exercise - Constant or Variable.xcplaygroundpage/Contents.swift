@@ -12,8 +12,14 @@
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
 
-
-
+let userName = "Minar El-Aasser"
+print("User name wont change")
+var userAge = 34
+print("age changes every 12 months")
+var goalNumberOfSteps = 300
+print("the goal should be adjustable as you practice more:)")
+var averageHeartRate = 75
+print("your heart rate may vary due to your health condition in the last 24 hours from one day to another")
 
 
 /*:
