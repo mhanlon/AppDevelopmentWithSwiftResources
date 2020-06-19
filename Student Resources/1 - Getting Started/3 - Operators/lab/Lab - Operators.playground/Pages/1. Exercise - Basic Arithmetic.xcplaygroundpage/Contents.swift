@@ -23,7 +23,12 @@
 /*:
  Now create two constants, `double10` and `double3`, set to 10 and 3, and declare their types as `Double` values. Declare a final constant `divisionResult` equal to the result of `double10` divided by `double3`. Print the value of `divisionResult`. How does this differ from the value when using integer division?
  */
-
+let double10 : Double 
+let double3 : Double
+double10 = 10 
+double3 = 3
+let divisionResult = double10 / double3
+print(divisionResult)
 
 /*:
  Given the value pi (3.1415927), create a `radius` constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
@@ -34,5 +39,9 @@
  */
 let pi = 3.1415927 
 
+let radius = 5.0 
 
+let diameter = 2 * radius
+
+let circumference = 2 * pi * radius
 //: page 1 of 8  |  [Next: App Exercise - Fitness Calculations](@next)

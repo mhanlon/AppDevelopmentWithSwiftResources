@@ -12,6 +12,16 @@
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
 
+let name : String 
+print ("A person name wont change")
+let age = 0 
+print("A person age  wont change")
+var steps2 = 0 
+print("number of steps taken need to be updated along the day")
+let goal2 = 0 
+print("A person goal  wont change")
+var heartrate = 0 
+print("heartrate will change according to activity")
 
 
 

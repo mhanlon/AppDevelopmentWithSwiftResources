@@ -12,6 +12,22 @@
  */
 
 
+var likes = 0 
+var comments = 0 
+let year = 2020 
+let month : String
+month = "june"
+let day = 1 
+
+
+
+/* Name: The user's name
+ - Age: The user's age
+ - Number of steps taken today: The number of steps that a user has taken today
+ - Goal number of steps: The user's goal for number of steps to take each day
+ - Average heart rate: The user's average heart rate over the last 24 hours */
+ 
+ 
 
 
 
