@@ -1,3 +1,4 @@
+
 /*:
  ## App Exercise - Complex Fitness Calculations
  
@@ -5,6 +6,16 @@
  
  If you completed the Fitness Calculations exercise, you calculated an average heart rate to display to the user. However, using proper order of operations you can do this in fewer steps. Create three separate heart rate constants, all of type `Double`, with values between 60 and 100. Then create a constant equal to the average heart rate. If you use correct order of operations you can do the heart calculation in one line.
  */
+var heartRate1 : Double 
+var heartRate2 : Double 
+var heartRate3 : Double 
+
+heartRate1 = 60 
+heartRate2 = 80 
+heartRate3 = 100 
+
+let avg = (heartRate1+heartRate2+heartRate1) / 3
+print(avg)
 
 
 /*:
@@ -12,6 +23,7 @@
  
  You may want to also show the temperature in celsius. You can convert fahrenheit to celsius by taking `tempInFahrenheit` and subtracting 32, then multiplying the result by (5.0/9.0). Create a constant `tempInCelsius` that calculates in one line the temperature in celsius.
  */
+let tempInFahrenheit = 98.6 
+let tempinCelsius = (tempInFahrenheit - 32 ) * (5/9)
+print(tempinCelsius)
 
-
-//: [Previous](@previous)  |  page 6 of 8  |  [Next: Exercise - Numeric Type Conversion](@next)
